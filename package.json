@@ -1,0 +1,38 @@
+{
+  "name": "fileboard",
+  "version": "1.0.0",
+  "description": "Copy a file to your clipboard",
+  "license": "MIT",
+  "repository": "tobihrbr/fileboard",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "bin": {
+    "fileboard": "./cli.js",
+    "fb": "./cli.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "fyi"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "copy",
+    "file",
+    "clipboard"
+  ],
+  "dependencies": {
+    "clipboardy": "^1.1.4"
+  },
+  "devDependencies": {
+    "fyi": "^1.0.1"
+  }
+}
